@@ -1,0 +1,15 @@
+{
+  "outputStyle": "Learning",
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit",
+      "Write",
+      "MultiEdit",
+      "Bash(cargo run*)",
+      "Bash(cargo build*)",
+      "Bash(cargo check*)",
+      "Bash(cargo test*)"
+    ]
+  }
+}
