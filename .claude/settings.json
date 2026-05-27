@@ -10,6 +10,24 @@
       "Bash(cargo build*)",
       "Bash(cargo check*)",
       "Bash(cargo test*)"
+    ],
+    "deny": [
+      "Bash(cat ~/.claude*)",
+      "Bash(cat ~/.config*)",
+      "Bash(env*)",
+      "Bash(printenv*)",
+      "Bash(echo $*)",
+      "Bash(curl*)",
+      "Bash(wget*)",
+      "Bash(ssh*)",
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/secrets*)",
+      "Read(**/*token*)",
+      "Read(**/*credential*)",
+      "Read(~/.ssh/*)",
+      "Read(~/.aws/*)",
+      "Read(~/.config/gh/*)"
     ]
   }
 }
